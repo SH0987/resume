@@ -1,0 +1,302 @@
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+.navbar-nav {
+margin-left: 900px;
+position: relative;
+animation: namer3 1.5s;
+animation-fill-mode: backwards;
+
+a:link{text-decoration:none; color: rgb(226, 204, 204)}
+      a:hover {text-decoration:none;
+            background-image: linear-gradient(to right,#316b62, #68436d ); 
+            color: transparent;
+            background-clip: text;}
+      a:visited {text-decoration:none;color: rgb(78, 62, 168)}
+      a:active {text-decoration:none;color: rgb(43, 35, 109)}
+}
+ed1:hover {text-decoration:none;
+    background-image: linear-gradient(to right,#89f3e3, #8a0f9a ); 
+    color: transparent;
+    background-clip: text;}
+.nav-link {
+    a:link{text-decoration:none; color: rgb(151, 15, 15)}
+      a:hover {text-decoration:none;
+            background-image: linear-gradient(to right,#89f3e3, #8a0f9a); 
+            color: transparent;
+            background-clip: text;}
+      a:visited {text-decoration:none;color: white}
+      a:active {text-decoration:none;color: white}
+}
+.navbar-brand {
+margin-left: 30px;
+position: relative;
+animation: namer 1.5s;
+animation-fill-mode: ba;
+
+
+}
+.card, .card-about {
+    background-color: rgb(11, 4, 32);
+    margin-top: 150px;
+    margin-bottom: 200px;
+    margin-right: 10px;
+    margin-left: 200px;
+    color: white;
+    position: relative;
+    animation: namer2 1.5s;
+    animation-fill-mode: backwards;
+}
+.sub-card {
+    position: relative;
+    animation: namer4 3s;
+    animation-fill-mode: backwards;
+}
+.bg-shape {
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    background:rgb(111, 8, 103);
+    background-image: linear-gradient(to right, #8a0f9a 0%, #edbef4 100%);
+    box-shadow: 0 4px 15px 0 rgba(238, 127, 250, 0.75);
+    position: absolute;
+}
+.bg-bg {
+    margin-left: 950px;
+    margin-top: -100px;
+    position: relative;
+    animation: namer3 1.5s;
+    animation-fill-mode: backwards;
+
+    
+}
+.bg-green {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    background-image: linear-gradient(to right, #89f3e3 0%, #f7fdfc 100%);
+    box-shadow: 0px 4px 15px 0 #e1f3f0;
+    margin-left: 1150px;
+    margin-top: -580px;
+    margin-bottom: 0px;
+    position: relative;
+    animation: namer3 1.5s linear;
+    animation-fill-mode: backwards;
+}
+.image {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    animation: namer3 1.5s;
+    animation-fill-mode: backwards;
+}
+.circle-green {
+    height: 200px;
+    width: 200px;
+    border-radius: 500px;
+    background-image: linear-gradient(to right, #89f3e3 0%, #f7fdfc 100%);
+    box-shadow: 0px 4px 15px 0 #e1f3f0;
+    margin-top: -400px;
+    margin-bottom: 100px;
+    animation: diag1 2s linear;
+    animation-fill-mode: backwards;
+}
+.circle-purple {
+    height: 200px;
+    width: 200px;
+    border-radius: 500px;
+    background-image: linear-gradient(to right, #8a0f9a 0%, #edbef4 100%);
+    box-shadow: 0 4px 15px 0 rgba(238, 127, 250, 0.75);
+    margin-top: 270px;
+    margin-left: 1400px;
+    position: relative;
+    animation: diag2 2s linear;
+    animation-fill-mode: backwards;
+
+}
+.circle-smallp{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-image: linear-gradient(to right, #8a0f9a 0%, #edbef4 100%);
+    box-shadow: 0 4px 15px 0 rgba(238, 127, 250, 0.75);
+    animation: diag1 1.5s linear;
+    animation-fill-mode: backwards;
+}
+.circle-smallg {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-image: linear-gradient(to right, #89f3e3 0%, #f7fdfc 100%);
+    box-shadow: 0px 4px 15px 0 #e1f3f0;
+    margin-left: 1500px;
+    margin-top: -450px;
+    animation: diag2 2s linear;
+    animation-fill-mode: backwards;
+
+}
+
+.bar1 {
+    margin-top: -450px;
+    margin-left: 300px;
+    background-image: linear-gradient(to right, #89f3e3 0%, #f7fdfc 100%);
+    box-shadow: 0px 4px 15px 0 #e1f3f0;
+    animation: graph1 1.5s linear;
+    animation-fill-mode: both;
+    
+}
+.bar2 {
+    margin-top: -130px;
+    margin-left: 400px;
+    background-image: linear-gradient(to right, #8a0f9a 0%, #edbef4 100%);
+    box-shadow: 0 4px 15px 0 rgba(238, 127, 250, 0.75);
+    animation: graph2 1.5s linear;
+    animation-fill-mode: both;
+}
+.bar3 {
+    margin-top: -210px;
+    margin-left: 500px;
+    background-image: linear-gradient(to right, #89f3e3 0%, #f7fdfc 100%);
+    box-shadow: 0px 4px 15px 0 #e1f3f0;
+    animation: graph3 1.5s linear;
+    animation-fill-mode: both;
+}
+.bar4{
+    margin-top: -120px;
+    margin-left: 600px;
+    background-image: linear-gradient(to right, #8a0f9a 0%, #edbef4 100%);
+    box-shadow: 0 4px 15px 0 rgba(238, 127, 250, 0.75);
+    animation: graph4 1.5s linear;
+    animation-fill-mode: both;
+}   
+
+
+/*Animations
+height: 150px;
+    width: 50px;*/
+
+@keyframes namer {
+    from{
+        left: -30px;
+}
+    to {
+        left: 30px;
+    }
+}
+@keyframes namer2 {
+    from{
+        left: 0px;
+}
+    to {
+        left: 80px;
+    }
+}
+@keyframes namer3 {
+    from{
+        right: 0px;
+}
+    to {
+        right: 80px;
+    }
+}
+
+@keyframes namer4 {
+    from{
+        left: -50px;
+    }
+    to{
+        left: 0px;
+    }
+}
+@keyframes diag1 {
+    0% {
+		transform: translate(0, 0);
+	}
+
+	100% {
+		transform: translate(130px, 130px);
+	}
+
+    
+}
+@keyframes diag2 {
+    0% {
+		transform: translate(0, 0);
+	}
+
+	100% {
+		transform: translate(-130px, -130px);
+	}
+
+    
+}
+@keyframes imagesup {
+    from {
+        right: 0px;
+    }
+    to {
+        right: 30px;
+    }
+}
+@keyframes graph1 {
+    0% {
+        height: 50px;
+        width: 50px;
+        left: 0px;
+        top:-100px;
+
+    }
+    100% {
+        height: 180px;
+        width: 50px;
+        left: 0px;
+        top:0px;
+    }
+}
+@keyframes graph2 {
+    0% {
+        height: 50px;
+        width: 50px;
+        left: 0px;
+        top:50px;
+
+    }
+    100% {
+        height: 130px;
+        width: 50px;
+        left: 0px;
+        top:-10px;
+    }
+}
+@keyframes graph3 {
+    0% {
+        height: 50px;
+        width: 50px;
+        left: 0px;
+        top:50px;
+
+    }
+    100% {
+        height: 210px;
+        width: 50px;
+        left: 0px;
+        top:-10px;
+    }
+}
+@keyframes graph4 {
+    0% {
+        height: 50px;
+        width: 50px;
+        left: 0px;
+        top:-500px;
+
+    }
+    100% {
+        height: 120px;
+        width: 50px;
+        left: 0px;
+        top:-10px;
+    }
+}
+
+
